@@ -9,7 +9,7 @@
 |
 */
 
-$config['assets']['env']        = defined(ENVIRONMENT) ? ENVIRONMENT : 'production'; // Using CodeIgniter's Environment defined in /index.php - if it isn't defined, use default.
+$config['assets']['env']        = defined('ENVIRONMENT') ? ENVIRONMENT : 'production'; // Using CodeIgniter's Environment defined in /index.php - if it isn't defined, use default.
 $config['assets']['combine']    = true;
 $config['assets']['minify_js']  = true;
 $config['assets']['minify_css'] = true;
